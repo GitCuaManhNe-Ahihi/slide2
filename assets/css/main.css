@@ -1,0 +1,44 @@
+*{
+    padding:0;
+    margin:0;
+}
+.slider
+{   position: relative;
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #be4d25 ;
+    overflow: hidden;
+}
+.sliders
+{  padding: 0;
+    margin: 0;
+    width: 714.3%;
+    height:100%;
+    display: flex;
+
+}
+
+.sliders img
+{
+    width: 1200px;
+    height: 500px;
+}
+.first
+{
+    margin-left:0%;
+    transition: 0.25s;
+}
+.btn
+{
+    position: fixed;
+    top:200px;
+    width: 30px;
+    height: 80px;
+    background-color: #0cb122;
+}
+#btn-right
+{
+    margin-left: 1170px;
+}
